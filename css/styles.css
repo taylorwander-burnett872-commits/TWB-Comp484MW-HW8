@@ -1,0 +1,130 @@
+/* Color Palette
+# - Sof Blush F1DEDE
+# - Lilac Ash BBACC1
+# - Rosy Granite 80727B
+# - Grey Olive 909580
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: #F1DEDE;
+    font-family: EB Garamond, serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.7em;
+    margin-top: 0;
+}
+
+h1, h2 {
+    font-family: IBM Plex Serif, serif;
+    font-weight: 400;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.navigation{
+    text-align: center;
+    padding: 5px;
+    background-color: #F1DEDE;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation a{
+    display: inline-block;
+    padding: 0 50px;
+    font-size: 1.4em;
+    color: #53690a;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: #BBACC1;
+}
+
+
+header {
+    background: #BBACC1;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+footer {
+    background: #BBACC1;
+    text-align: center;
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color : blueviolet;
+}
+
+.profile-img {
+    /*width: 300px;
+    float: left;
+    margin-right: 30px;*/
+    border-radius: 50%;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.workexp {
+    background: #80727B;
+    
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: linear-gradient(rgba(70,130,180, 0.5),
+                 rgba(70,130,180, 0.5)),url('../images/city.jpg') no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.alpha-bg {
+    background: rgba(70,130,180, 0.5);
+}
